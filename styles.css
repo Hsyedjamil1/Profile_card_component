@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.profile__card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.profile__card__components {
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;   
+}
+
+.golbal__class__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile__card__components__profile__footer_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+ }
+
+ strong {
+    display: flex;
+ }
+
+ .profile__card__components__profile__image {
+    border-radius: 50%;
+    border: 0.5rem solid white;
+    margin-top: -2rem;
+   
+ }
+
+ .profile__card__components__profile__content {
+    margin-bottom: 1rem;
+ }
+
+
+ .profile__card__components__profile__content__footer {
+    margin: 1rem 0;
+ }
+
+ .golbal__class__footter {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(229, 23%, 23%);
+ }
+
+ strong {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    
+ }
+
+ span {
+    font-weight: 400;
+ }
+
+ .profile__card__componens__profiler__country {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+ }
+
+ .profile__card__components__profile__content__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+ }
+
+ .victor__age {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+ }
